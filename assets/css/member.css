@@ -1,0 +1,69 @@
+.login-flex {
+  padding: 2rem 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url("../images/login-background.png");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header.logo-display {
+  display: block;
+  text-align: center;
+}
+
+header.logo-display img {
+  max-width: 256px;
+  width: 40vw;
+}
+
+section.login-box form {
+  margin: 2rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+section.login-box>form>.row {
+  margin-bottom: auto;
+}
+
+section.login-box>form .row .input-field {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+section.login-box form i {
+  color: #9e9e9e;
+}
+
+section.login-box form i.select-i {
+  left: 10px;
+}
+
+section.login-box form input {
+  box-shadow: none !important;
+}
+
+section.login-box form button {
+  padding: 0.8rem 2.4rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #00A99D;
+  color: #FFFFFF;
+}
+
+footer.extend-action {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+footer.extend-action>ul>li {
+  padding: 0.2rem 0;
+}
