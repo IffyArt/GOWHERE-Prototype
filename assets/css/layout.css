@@ -29,8 +29,13 @@ nav .person>.img {
 }
 
 nav .person>.img img {
-  height: 40px;
   margin-top: 8px;
+  height: 40px;
+}
+
+nav .person>.name.action i {
+  color: #00a99d;
+  transform: rotate(180deg);
 }
 
 nav .person>.name * {
@@ -55,6 +60,47 @@ nav .person>.search {
 nav .person>.search i {
   color: #C9C9C9;
   font-size: 2.2rem;
+}
+
+nav .action-list {
+  display: none;
+  border-top: #C9C9C9 1px solid;
+  border-bottom: #C9C9C9 1px solid;
+  background-color: #FFFFFF;
+}
+
+nav .action-list.show {
+  display: block;
+}
+
+nav .action-list li {
+  display: inline-block;
+  float: none;
+  width: 25%;
+  border-right: #c9c9c9 1px solid;
+  text-align: center;
+}
+
+nav .action-list li span {
+  color: #00A99D;
+}
+
+nav .action-list li i {
+  color: #00A99D;
+  font-size: 3rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
+}
+
+nav .action-list li span {
+  display: block;
+  line-height: 1.5rem;
+  font-size: 0.8em;
+}
+
+nav .action-list li:nth-child(n4) {
+  float: none;
+  border-right: none;
 }
 
 section.layout-main {
