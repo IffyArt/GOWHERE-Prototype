@@ -1,0 +1,76 @@
+ul.post-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: calc(100vh - 110px);
+  background-color: #F4F4F4;
+}
+
+ul.post-list .header {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 1rem;
+}
+
+ul.post-list .header .information {
+  flex: auto;
+}
+
+ul.post-list .header .information .time {
+  color: #B3B3B3;
+  font-size: 0.8em;
+}
+
+ul.post-list .header .avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.post-list .header .avatar img {
+  width: 40px;
+}
+
+ul.post-list>li:not(.post) {
+  margin: 1rem 1.5rem;
+  background-color: #FFFFFF;
+}
+
+ul.post-list li .content .picture img {
+  width: 100%;
+}
+
+ul.post-list li .content .text {
+  padding: 0.5rem 1rem;
+  font-size: 0.8em;
+}
+
+ul.post-list li .footer {
+  border-top: #CCCCCC solid 1px;
+}
+
+ul.post-list li .footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul.post-list li .footer ul li {
+  display: flex;
+  align-items: center;
+  flex: auto;
+  justify-content: center;
+  min-width: 24%;
+  height: 3.5rem;
+}
+
+ul.post-list li .footer ul li i {
+  color: #C9C9C9;
+}
+
+ul.post-list li .footer ul li.action {
+  color: #00A99D;
+}
+
+ul.post-list li .footer ul li.action i {
+  color: #00A99D;
+}
