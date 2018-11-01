@@ -70,15 +70,22 @@ nav .action-list {
 }
 
 nav .action-list.show {
-  display: block;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
 }
 
 nav .action-list li {
-  display: inline-block;
-  float: none;
-  width: 25%;
+  display: inline-flex;
   border-right: #c9c9c9 1px solid;
   text-align: center;
+  flex: auto;
+  min-width: 25%;
+  flex-direction: column;
+}
+
+nav .action-list li:nth-child(n+5) {
+  border-top: #c9c9c9 1px solid;
 }
 
 nav .action-list li span {
@@ -93,7 +100,6 @@ nav .action-list li i {
 }
 
 nav .action-list li span {
-  display: block;
   line-height: 1.5rem;
   font-size: 0.8em;
 }
