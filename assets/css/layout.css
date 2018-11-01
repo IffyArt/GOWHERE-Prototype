@@ -48,7 +48,7 @@ header.layout-return nav .title {
   align-items: center;
   justify-content: center;
   width: 100%;
-  color: #000000;
+  color: #333333;
   font-size: 1.1rem;
 }
 
@@ -82,7 +82,7 @@ nav .person>.name * {
 }
 
 nav .person>.name span {
-  color: #000000;
+  color: #333333;
   font-size: 1em;
 }
 

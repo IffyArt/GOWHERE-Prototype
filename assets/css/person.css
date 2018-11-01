@@ -1,0 +1,22 @@
+.person-detail+ul.post-list {
+  min-height: calc(50vh - 110px);
+}
+
+.person-detail {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.person-detail .avatar {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.person-detail .avatar>* {
+  display: block;
+}
+
+.person-detail .avatar span {
+  font-size: 1.5em;
+  color: #333333;
+  margin-bottom: 1rem;
+}
