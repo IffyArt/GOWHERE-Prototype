@@ -1,3 +1,5 @@
+/* chatroom-list */
+
 ul.chatroom-list {
   padding: 0 0.5rem;
   color: #B3B3B3;
@@ -19,10 +21,10 @@ ul.chatroom-list li {
 }
 
 ul.chatroom-list li .avatar {
-  width: 64px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  width: 64px;
 }
 
 .avatar img {
@@ -35,7 +37,7 @@ ul.chatroom-list li .chat-detail {
   padding-right: 1rem;
 }
 
-.chat-detail .title .name {
+ul.chatroom-list .chat-detail .title .name {
   display: inline-block;
   font-size: 1.2rem;
 }
@@ -44,7 +46,7 @@ ul.chatroom-list li .chat-detail {
   font-size: 0.8em;
 }
 
-.chat-detail .content {
+ul.chatroom-list .chat-detail .content {
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
@@ -53,3 +55,122 @@ ul.chatroom-list li .chat-detail {
   font-size: 0.8em;
   -webkit-line-clamp: 2;
 }
+
+/* chatroom-list end */
+
+/* chat-list */
+
+.chat-list li {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 1rem;
+}
+
+.chat-list li .avatar {
+  margin-right: 0.5rem;
+}
+
+.chat-list li .chat-detail .time {
+  color: #B3B3B3;
+}
+
+.chat-list li .chat-detail .title .name {
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+.chat-list li .content {
+  display: inline-flex;
+  margin-top: 0.4rem;
+  padding: 10px;
+  min-width: 60px;
+  border-radius: 10px;
+  background-color: #F2F2F2;
+}
+
+.chat-list li.user {
+  justify-content: flex-end;
+  padding-left: 4.5rem;
+}
+
+.chat-list li.user .avatar {
+  display: none;
+}
+
+.chat-list li.user .chat-detail {
+  display: flex;
+  align-items: flex-end;
+}
+
+.chat-list li.user .chat-detail .title {
+  margin: 0 0.5rem;
+}
+
+.chat-list li.user .title .name {
+  display: none;
+}
+
+/* chat-list end */
+
+/* footer-text-input */
+
+footer.text-input {
+  background-color: #F2F2F2;
+}
+
+footer.text-input {
+  display: flex;
+  flex-direction: row;
+}
+
+footer.text-input .extend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.8rem;
+}
+
+footer.text-input .extend i {
+  color: #C9C9C9;
+  font-weight: bold;
+}
+
+footer.text-input .input-box {
+  display: inline-flex;
+  align-items: center;
+  flex: auto;
+  justify-content: center;
+}
+
+footer.text-input .input-box>* {
+  display: inline-flex;
+}
+
+footer.text-input .input-box input[type=text]:not(.browser-default) {
+  margin: 0 !important;
+  padding: 0 15px;
+  height: 2.5rem;
+  border: navajowhite;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  box-shadow: none;
+}
+
+footer.text-input .input-box button {
+  justify-content: center;
+  margin: 0 12px;
+  padding: 0;
+  min-width: 36px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background-color: #00A99D;
+  text-align: center;
+}
+
+footer.text-input .input-box button i {
+  color: #F2F2F2;
+}
+
+/* footer-text-input end */

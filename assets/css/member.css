@@ -1,4 +1,7 @@
 .login-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 2rem 0;
   min-width: 100vw;
   min-height: 100vh;
@@ -6,9 +9,6 @@
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 header.logo-display {
@@ -66,4 +66,31 @@ footer.extend-action {
 
 footer.extend-action>ul>li {
   padding: 0.2rem 0;
+}
+
+ul.user-list {
+  margin: 0.5rem;
+}
+
+ul.user-list li {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #B3B3B3;
+}
+
+ul.user-list .avatar {
+  display: inline-flex;
+}
+
+ul.user-list .avatar img {
+  width: 48px;
+  height: 48px;
+}
+
+ul.user-list .chat-detail {
+  margin-left: 1rem;
+  font-size: 1.2rem;
 }

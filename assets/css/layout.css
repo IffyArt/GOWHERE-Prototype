@@ -98,19 +98,24 @@ nav .action-list li span {
 }
 
 nav .action-list li i {
-  height: 4.5rem;
+  height: 4rem;
   color: #00A99D;
   font-size: 3rem;
-  line-height: 4.5rem;
+  line-height: 4rem;
 }
 
 nav .action-list li span {
+  padding-bottom: 0.5rem;
   font-size: 0.8em;
   line-height: 1.5rem;
 }
 
-nav .action-list li:nth-child(n4) {
+nav .action-list li:nth-child(4n) {
   float: none;
+  border-right: none;
+}
+
+nav .action-list li:nth-last-child(1) {
   border-right: none;
 }
 
@@ -119,6 +124,10 @@ section.layout-main {
   overflow-y: auto;
   margin-top: 56px;
   width: 100%;
+  height: calc(100vh - 110px);
+}
+
+section.layout-main>iframe {
   height: calc(100vh - 110px);
 }
 
