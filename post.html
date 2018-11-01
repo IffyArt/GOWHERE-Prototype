@@ -82,8 +82,8 @@
     <ul class="post-list">
       <li class="post">
         <span>Write a story...</span>
-        <a class="right"
-           href="#"><i class="material-icons">expand_more</i></a>
+        <a class="right modal-trigger"
+           href="#post"><i class="material-icons">expand_more</i></a>
       </li>
       <li class="z-depth-1">
         <div class="header">
@@ -148,6 +148,46 @@
       </li>
     </ul>
   </footer>
+
+  <div id="post"
+       class="modal post">
+    <div class="modal-content">
+      <h4>Post </h4>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">note</i>
+              <input id="title"
+                     type="text"
+                     class="validate">
+              <label for="title">Title</label>
+            </div>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">assignment</i>
+              <textarea id="content"
+                        class="materialize-textarea"></textarea>
+              <label for="content">Content</label>
+            </div>
+            <div class="file-field input-field col s12">
+              <div class="btn">
+                <span>File</span>
+                <input type="file">
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate"
+                       type="text">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!"
+         class="modal-close waves-effect waves-green btn-flat">Check</a>
+    </div>
+  </div>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"
           integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
           crossorigin="anonymous"></script>

@@ -103,3 +103,11 @@ ul.post-list li .footer ul li.action {
 ul.post-list li .footer ul li.action i {
   color: #00A99D;
 }
+
+.post .modal-content {
+  padding: 18px;
+}
+
+.post .modal-content .row {
+  margin-bottom: 0;
+}

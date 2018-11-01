@@ -38,6 +38,10 @@ nav .person>.img img {
   height: 40px;
 }
 
+nav .person>.name i {
+  transition: 300ms;
+}
+
 nav .person>.name.action i {
   color: #00a99d;
   transform: rotate(180deg);
