@@ -9,7 +9,8 @@ ul.hot-spot li {
   flex: auto;
   flex-direction: column;
   margin: 0.5rem;
-  width: 40%;
+  min-width: 40%;
+  width: 45%;
 }
 
 ul.hot-spot li .header {
@@ -46,4 +47,44 @@ ul.hot-spot li .footer {
 ul.hot-spot li .footer i {
   color: #C9C9C9;
   font-size: 1.2rem;
+}
+
+/* spot data */
+
+ul.spot-data .header {
+  position: relative;
+  margin: 0;
+}
+
+ul.spot-data {
+  margin: 0;
+}
+
+ul.spot-data .header .title {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem 1.5rem;
+  width: 100%;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.64) 98%, rgba(0, 0, 0, 0.65) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.64) 98%, rgba(0, 0, 0, 0.65) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.64) 98%, rgba(0, 0, 0, 0.65) 100%);
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+}
+
+ul.spot-data .header .title span:nth-child(1) {
+  border-bottom: 1px solid #FFFFFF;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+ul.spot-data li:not(.header) {
+  padding: 1rem 1.5rem;
+  border-bottom: #CCCCCC solid 1px;
+  color: #707070;
+}
+
+ul.spot-data .header .picture img {
+  width: 100%;
 }

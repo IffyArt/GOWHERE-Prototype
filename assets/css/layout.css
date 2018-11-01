@@ -75,9 +75,12 @@ nav .action-list {
 }
 
 nav .action-list.show {
+  position: absolute;
+  z-index: 100;
   display: flex;
   align-content: flex-start;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 nav .action-list li {
