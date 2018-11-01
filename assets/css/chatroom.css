@@ -1,6 +1,6 @@
 /* chatroom-list */
 
-ul.chatroom-list {
+ul.chatroom-list li a {
   padding: 0 0.5rem;
   color: #B3B3B3;
 }
@@ -13,14 +13,14 @@ ul.chatroom-list {
   margin: 0.5rem 0;
 }
 
-ul.chatroom-list li {
+ul.chatroom-list li a {
   display: flex;
   flex-direction: row;
   padding: 0.5rem 0;
   border-bottom: 1px solid #B3B3B3;
 }
 
-ul.chatroom-list li .avatar {
+ul.chatroom-list li a .avatar {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +32,7 @@ ul.chatroom-list li .avatar {
   height: 48px;
 }
 
-ul.chatroom-list li .chat-detail {
+ul.chatroom-list li a .chat-detail {
   flex: auto;
   padding-right: 1rem;
 }

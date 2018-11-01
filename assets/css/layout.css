@@ -23,6 +23,35 @@ header.layout-header nav>a>i {
   font-size: 2rem;
 }
 
+header.layout-return {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+header.layout-return nav {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.14), -5px -14px 3px 4px rgba(0, 0, 0, 0.12), -4px -6px 11px 0 rgba(0, 0, 0, 0.2);
+}
+
+header.layout-return nav>a>i {
+  color: #8C8C8C;
+  font-size: 2rem;
+}
+
+header.layout-return nav a {
+  position: absolute;
+}
+
+header.layout-return nav .title {
+  color: #000000;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.1rem;
+}
+
 nav .person>* {
   display: inline-block;
   height: 56px;
