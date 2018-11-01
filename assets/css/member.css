@@ -72,7 +72,7 @@ ul.user-list {
   margin: 0.5rem;
 }
 
-ul.user-list li {
+ul.user-list li a {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -93,4 +93,5 @@ ul.user-list .avatar img {
 ul.user-list .chat-detail {
   margin-left: 1rem;
   font-size: 1.2rem;
+  color: #000000;
 }
