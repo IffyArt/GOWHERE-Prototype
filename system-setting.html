@@ -18,159 +18,124 @@
         href="assets/css/layout.css">
   <link rel="stylesheet"
         href="assets/css/chatroom.css">
+  <link rel="stylesheet"
+        href="assets/css/member.css">
 
 </head>
 
 <body>
-  <header class="layout-header">
-    <ul id="slide-out"
-        class="sidenav">
-      <li>
-        <div class="user-view">
-          <div class="background">
-            <img src="assets/images/bg.jpg">
-          </div>
-          <a href="#user"><img class="circle"
-                 src="assets/images/person.png"></a>
-          <a href="#name"><span class="white-text name">Iffy Art</span></a>
-          <a href="#email"><span class="white-text email">iffyart@icloud.com</span></a>
+  <ul id="slide-out"
+      class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="assets/images/bg.jpg">
         </div>
-      </li>
-      <li><a class="waves-effect"
-           href="#!"><i class="material-icons">local_car_wash</i>大眾交通</a></li>
-      <li><a class="waves-effect"
-           href="#!"><i class="material-icons">add_shopping_cart</i>擴充功能</a></li>
-      <li><a class="waves-effect"
-           href="#!"><i class="material-icons">settings</i>系統設定</a></li>
-      <li>
-        <div class="divider"></div>
-      </li>
-      <li><a class="waves-effect"
-           href="#!"><i class="material-icons">launch</i>log out</a></li>
-    </ul>
+        <a href="#user"><img class="circle"
+               src="assets/images/person.png"></a>
+        <a href="#name"><span class="white-text name">Iffy Art</span></a>
+        <a href="#email"><span class="white-text email">iffyart@icloud.com</span></a>
+      </div>
+    </li>
+    <li><a class="waves-effect"
+         href="#!"><i class="material-icons">local_car_wash</i>大眾交通</a></li>
+    <li><a class="waves-effect"
+         href="#!"><i class="material-icons">add_shopping_cart</i>擴充功能</a></li>
+    <li><a class="waves-effect"
+         href="#!"><i class="material-icons">settings</i>系統設定</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="waves-effect"
+         href="#!"><i class="material-icons">launch</i>log out</a></li>
+  </ul>
+
+  <header class="layout-return">
     <nav>
       <a href="#"
-         data-target="slide-out"
-         class="sidenav-trigger"><i class="material-icons">subject</i></a>
-      <div class="person">
-        <div class="img">
-          <img src="assets/images/person.png">
-        </div>
-        <div class="name">
-          <span>IffyArt</span>
-          <i class="material-icons">keyboard_arrow_down</i>
-        </div>
-        <div class="search right">
-          <a href="#">
-            <i class="material-icons">search</i>
-          </a>
-        </div>
+         class="sidenav-trigger">
+        <i class="material-icons">keyboard_arrow_left</i>
+      </a>
+      <div class="title">
+        System setting
       </div>
-      <ul class="action-list">
-        <li>
-          <i class="material-icons">watch_later</i>
-          <span>好友管理</span>
-        </li>
-        <li>
-          <i class="material-icons">watch_later</i>
-          <span>好友管理</span>
-        </li>
-        <li>
-          <i class="material-icons">watch_later</i>
-          <span>好友管理</span>
-        </li>
-        <li>
-          <i class="material-icons">watch_later</i>
-          <span>好友管理</span>
-        </li>
-        <li>
-          <i class="material-icons">watch_later</i>
-          <span>好友管理</span>
-        </li>
-        <li>
-          <i class="material-icons">watch_later</i>
-          <span>好友管理</span>
-        </li>
-      </ul>
     </nav>
   </header>
-
   <section class="layout-main">
-    <ul class="chat-list">
-      <li class="user">
-        <div class="avatar">
+    <form class="system-form">
+      <div class="row">
+        <div class="col s12 img">
           <img src="assets/images/person.png">
         </div>
-        <div class="chat-detail">
-          <div class="title">
-            <div class="name">IffyArt</div>
-            <div class="time right">12:33 PM</div>
-          </div>
-          <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Praesentium eaque
-          </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">email</i>
+          <input id="email"
+                 type="email"
+                 class="validate">
+          <label for="email">Email</label>
         </div>
-      </li>
-      <li>
-        <div class="avatar">
-          <img src="assets/images/person.png">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">lock</i>
+          <input id="password"
+                 type="text"
+                 class="validate">
+          <label for="password">Password</label>
         </div>
-        <div class="chat-detail">
-          <div class="title">
-            <div class="name">IffyArt</div>
-            <div class="time right">12:33 PM</div>
-          </div>
-          <div class="content">
-            Lorem ipsum dolor sit amet,
-          </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">lock</i>
+          <input id="confirm_password"
+                 type="text"
+                 class="validate">
+          <label for="confirm_password">Confirm Password</label>
         </div>
-      </li>
-      <li>
-        <div class="avatar">
-          <img src="assets/images/person.png">
+        <div class="input-field col s12">
+          <i class="material-icons prefix select-i">face</i>
+          <select>
+            <option value=""
+                    disabled
+                    selected>Select your gender</option>
+            <option value="1">No display</option>
+            <option value="2">Male</option>
+            <option value="3">Female</option>
+          </select>
+          <label>Gender</label>
         </div>
-        <div class="chat-detail">
-          <div class="title">
-            <div class="name">IffyArt</div>
-            <div class="time right">12:33 PM</div>
-          </div>
-          <div class="content action waves-effect waves-light">
-            I am any action
-          </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">stay_current_portrait</i>
+          <input id="phone"
+                 type="text"
+                 class="validate">
+          <label for="phone">Phone</label>
         </div>
-      </li>
-      <li>
-        <div class="avatar">
-          <img src="assets/images/person.png">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="nickname"
+                 type="text"
+                 class="validate">
+          <label for="nickname">Nickname</label>
         </div>
-        <div class="chat-detail">
-          <div class="title">
-            <div class="name">IffyArt</div>
-            <div class="time right">12:33 PM</div>
-          </div>
-          <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Praesentium eaque
-          </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="first_name"
+                 type="text"
+                 class="validate">
+          <label for="first_name">First name</label>
         </div>
-      </li>
-    </ul>
-
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="last_name"
+                 type="text"
+                 class="validate">
+          <label for="last_name">Last name</label>
+        </div>
+      </div>
+    </form>
 
   </section>
 
-  <footer class="layout-footer text-input z-depth-1">
-    <div class="extend">
-      <i class="material-icons">add</i>
-    </div>
-    <form class="input-box">
-      <input type="text"
-             placeholder="Add a comment...">
-      <button class="waves-effect waves-light">
-        <i class="material-icons">play_arrow</i>
-      </button>
-    </form>
+  <footer class="layout-footer action z-depth-1">
+    <a href="#"
+       class=" waves-effect">確認修改</a>
   </footer>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"
           integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
