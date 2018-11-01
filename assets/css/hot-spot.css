@@ -1,0 +1,49 @@
+ul.hot-spot {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
+
+ul.hot-spot li {
+  display: inline-flex;
+  flex: auto;
+  flex-direction: column;
+  margin: 0.5rem;
+  width: 40%;
+}
+
+ul.hot-spot li .header {
+  width: 100%;
+}
+
+ul.hot-spot li .header img {
+  width: 100%;
+}
+
+ul.hot-spot li .content {
+  padding: 0 0.5rem;
+}
+
+ul.hot-spot li .content .title {
+  font-size: 1rem;
+}
+
+ul.hot-spot li .content .text {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  color: #B3B3B3;
+  text-overflow: ellipsis;
+  font-size: 0.8rem;
+  -webkit-line-clamp: 2;
+}
+
+ul.hot-spot li .footer {
+  padding: 0 0.5rem;
+  text-align: right;
+}
+
+ul.hot-spot li .footer i {
+  color: #C9C9C9;
+  font-size: 1.2rem;
+}
