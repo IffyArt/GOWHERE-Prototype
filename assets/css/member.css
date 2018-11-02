@@ -71,6 +71,8 @@ footer.extend-action>ul>li a {
   color: #FFFFFF;
 }
 
+/* User list */
+
 ul.user-list {
   margin: 0.5rem;
 }
@@ -80,7 +82,7 @@ ul.user-list li>a {
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   border-bottom: 1px solid #B3B3B3;
 }
 
@@ -98,6 +100,8 @@ ul.user-list .chat-detail {
   color: #333333;
   font-size: 1.2rem;
 }
+
+/* User detail */
 
 .user-detail .header {
   position: relative;
@@ -156,6 +160,8 @@ ul.user-list .chat-detail {
   font-size: 2em;
 }
 
+/* User Add */
+
 ul.user-add {
   margin: 0.5rem;
 }
@@ -187,4 +193,40 @@ ul.user-add .chat-detail {
 ul.user-add .action {
   position: absolute;
   right: 0;
+}
+
+/* Group list */
+
+ul.group-list {
+  margin: 0.5rem;
+}
+
+ul.group-list li {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  border-bottom: 1px solid #B3B3B3;
+  position: relative;
+}
+
+ul.group-list .avatar {
+  display: inline-flex;
+}
+
+ul.group-list .avatar img {
+  width: 48px;
+  height: 48px;
+}
+
+ul.group-list .chat-detail {
+  margin-left: 1rem;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+ul.group-list .action {
+  position: absolute;
+  right: 0.5rem;
 }

@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 ul.sidenav .user-view .background {
   background-color: #757575;
 }

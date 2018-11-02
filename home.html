@@ -15,6 +15,8 @@
   <link rel="stylesheet"
         href="assets/css/layout.css">
   <link rel="stylesheet"
+        href="assets/css/style.css">
+  <link rel="stylesheet"
         href="assets/css/chatroom.css">
   <link rel="stylesheet"
         href="assets/css/hot-spot.css">
@@ -29,31 +31,6 @@
 
 <body>
   <header class="layout-header">
-    <ul id="slide-out"
-        class="sidenav">
-      <li>
-        <div class="user-view">
-          <div class="background">
-            <img src="assets/images/bg.jpg">
-          </div>
-          <a href="#user"><img class="circle"
-                 src="assets/images/person.png"></a>
-          <a href="#name"><span class="white-text name">Iffy Art</span></a>
-          <a href="#email"><span class="white-text email">iffyart@icloud.com</span></a>
-        </div>
-      </li>
-      <li><a class="waves-effect"
-           href="#!"><i class="material-icons">local_car_wash</i>大眾交通</a></li>
-      <li><a class="waves-effect"
-           href="#!"><i class="material-icons">add_shopping_cart</i>擴充功能</a></li>
-      <li><a class="waves-effect"
-           href="#!"><i class="material-icons">settings</i>系統設定</a></li>
-      <li>
-        <div class="divider"></div>
-      </li>
-      <li><a class="waves-effect"
-           href="#!"><i class="material-icons">launch</i>log out</a></li>
-    </ul>
     <nav>
       <a href="#"
          data-target="slide-out"
@@ -67,28 +44,64 @@
           <i class="material-icons">keyboard_arrow_down</i>
         </div>
         <div class="search right">
-          <a href="#">
+          <a href="user-add.html">
             <i class="material-icons">search</i>
           </a>
         </div>
       </div>
       <ul class="action-list">
         <li>
-          <i class="material-icons">watch_later</i>
-          <span>好友管理</span>
+          <a href="user-list.html">
+            <i class="material-icons">perm_identity</i>
+            <span>好友管理</span>
+          </a>
         </li>
         <li>
-          <i class="material-icons">watch_later</i>
-          <span>好友管理</span>
+          <a href="group-list.html">
+            <i class="material-icons">supervisor_account</i>
+            <span>社群管理</span>
+          </a>
         </li>
         <li>
-          <i class="material-icons">watch_later</i>
-          <span>好友管理</span>
+          <a href="user-add.html">
+            <i class="material-icons">done_all</i>
+            <span>好友申請</span>
+          </a>
+        </li>
+        <li>
+          <a href="home.html">
+            <i class="material-icons">home</i>
+            <span>個人主頁</span>
+          </a>
         </li>
       </ul>
     </nav>
   </header>
-
+  <ul id="slide-out"
+      class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="assets/images/bg.jpg">
+        </div>
+        <a href="#user"><img class="circle"
+               src="assets/images/person.png"></a>
+        <a href="#name"><span class="white-text name">Iffy Art</span></a>
+        <a href="#email"><span class="white-text email">iffyart@icloud.com</span></a>
+      </div>
+    </li>
+    <li><a class="waves-effect"
+         href="transportation.html"><i class="material-icons">directions_bus</i>大眾交通</a></li>
+    <li><a class="waves-effect"
+         href="expand.html"><i class="material-icons">add_shopping_cart</i>擴充功能</a></li>
+    <li><a class="waves-effect"
+         href="system-setting.html"><i class="material-icons">settings</i>系統設定</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="waves-effect"
+         href="login.html"><i class="material-icons">launch</i>log out</a></li>
+  </ul>
   <section class="layout-main">
     <div class="person-detail">
       <div class="avatar">
@@ -166,7 +179,7 @@
       </li>
     </ul>
   </section>
-  <footer class="layout-footer z-depth-1">
+  <footer class="layout-footer z-depth-2">
     <ul>
       <li>
         <a href="chatroom.html">
