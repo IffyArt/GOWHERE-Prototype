@@ -134,14 +134,15 @@ nav .action-list li span {
 }
 
 nav .action-list li i {
-  height: 4rem;
+  height: 3.5rem;
   color: #00A99D;
   font-size: 3rem;
-  line-height: 4rem;
+  line-height: 3.5rem;
 }
 
 nav .action-list li span {
-  padding-bottom: 0.5rem;
+  display: inherit;
+  padding-bottom: 0.25rem;
   font-size: 0.8em;
   line-height: 1.5rem;
 }

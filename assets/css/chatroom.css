@@ -16,7 +16,8 @@ ul.chatroom-list {
 ul.chatroom-list li a {
   display: flex;
   flex-direction: row;
-  padding: 0.5rem 0;
+  padding: 0.75rem 0;
+  margin: 0 0.5rem;
   border-bottom: 1px solid #B3B3B3;
 }
 
@@ -25,9 +26,10 @@ ul.chatroom-list li a .avatar {
   align-items: center;
   justify-content: center;
   width: 64px;
+  min-width: 64px;
 }
 
-.avatar img {
+ul.chatroom-list .avatar img {
   width: 48px;
   height: 48px;
 }
@@ -50,7 +52,7 @@ ul.chatroom-list .chat-detail .content {
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
-  width: 280px;
+  width: 100%;
   text-overflow: ellipsis;
   font-size: 0.8em;
   -webkit-line-clamp: 2;
@@ -60,26 +62,31 @@ ul.chatroom-list .chat-detail .content {
 
 /* chat-list */
 
-.chat-list li {
+ul.chat-list li {
   display: flex;
   flex-direction: row;
   padding: 0.5rem 1rem;
 }
 
-.chat-list li .avatar {
+ul.chat-list li .avatar {
   margin-right: 0.5rem;
 }
 
-.chat-list li .chat-detail .time {
+ul.chat-list li .avatar img {
+  width: 48px;
+  height: 48px;
+}
+
+ul.chat-list li .chat-detail .time {
   color: #B3B3B3;
 }
 
-.chat-list li .chat-detail .title .name {
+ul.chat-list li .chat-detail .title .name {
   display: inline-block;
   font-size: 1.1em;
 }
 
-.chat-list li .content {
+ul.chat-list li .content {
   display: inline-flex;
   margin-top: 0.4rem;
   padding: 10px;
@@ -88,29 +95,29 @@ ul.chatroom-list .chat-detail .content {
   background-color: #F2F2F2;
 }
 
-.chat-list li.user {
+ul.chat-list li.user {
   justify-content: flex-end;
   padding-left: 4.5rem;
 }
 
-.chat-list li.user .avatar {
+ul.chat-list li.user .avatar {
   display: none;
 }
 
-.chat-list li.user .chat-detail {
+ul.chat-list li.user .chat-detail {
   display: flex;
   align-items: flex-end;
 }
 
-.chat-list li.user .chat-detail .title {
+ul.chat-list li.user .chat-detail .title {
   margin: 0 0.5rem;
 }
 
-.chat-list li.user .title .name {
+ul.chat-list li.user .title .name {
   display: none;
 }
 
-.chat-list li .chat-detail .action {
+ul.chat-list li .chat-detail .action {
   padding: 0.75rem 2.5rem;
   border-radius: 15px;
   background-color: #00A99D;

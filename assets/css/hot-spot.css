@@ -27,6 +27,7 @@ ul.hot-spot li .content {
 
 ul.hot-spot li .content .title {
   font-size: 1rem;
+  color: #333333;
 }
 
 ul.hot-spot li .content .text {
@@ -40,7 +41,7 @@ ul.hot-spot li .content .text {
 }
 
 ul.hot-spot li .footer {
-  padding: 0 0.5rem;
+  padding: 0.25rem 0.5rem;
   text-align: right;
 }
 

@@ -60,12 +60,15 @@ section.login-box form button {
 }
 
 footer.extend-action {
-  color: #FFFFFF;
   text-align: center;
 }
 
 footer.extend-action>ul>li {
   padding: 0.2rem 0;
+}
+
+footer.extend-action>ul>li a {
+  color: #FFFFFF;
 }
 
 ul.user-list {
@@ -143,8 +146,8 @@ ul.user-list .chat-detail {
 
 .user-detail ul.footer li a {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   height: 4rem;
 }
 

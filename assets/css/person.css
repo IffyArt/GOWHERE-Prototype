@@ -1,5 +1,7 @@
 .person-detail+ul.post-list {
   background-color: #FFFFFF;
+  min-height: auto;
+  padding-bottom: 1rem;
 }
 
 .person-detail {
