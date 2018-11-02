@@ -162,6 +162,10 @@ ul.user-list .chat-detail {
 
 /* User Add */
 
+form.search-member {
+  padding: 0.5rem;
+}
+
 ul.user-add {
   margin: 0.5rem;
 }
