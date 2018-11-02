@@ -58,6 +58,7 @@ ul.post-list .header .avatar {
 
 ul.post-list .header .avatar img {
   width: 40px;
+  height: 40px;
 }
 
 ul.post-list>li:not(.post) {
