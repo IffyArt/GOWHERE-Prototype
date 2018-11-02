@@ -15,6 +15,7 @@ header.layout-header {
   position: absolute;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 header.layout-header nav {
