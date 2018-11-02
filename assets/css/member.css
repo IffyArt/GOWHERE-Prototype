@@ -72,7 +72,7 @@ ul.user-list {
   margin: 0.5rem;
 }
 
-ul.user-list li a {
+ul.user-list li>a {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -151,4 +151,37 @@ ul.user-list .chat-detail {
 .user-detail ul.footer li a i {
   color: #707070;
   font-size: 2em;
+}
+
+ul.user-add {
+  margin: 0.5rem;
+}
+
+ul.user-add li>div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #B3B3B3;
+}
+
+ul.user-add .avatar {
+  display: inline-flex;
+}
+
+ul.user-add .avatar img {
+  width: 48px;
+  height: 48px;
+}
+
+ul.user-add .chat-detail {
+  margin-left: 1rem;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+ul.user-add .action {
+  position: absolute;
+  right: 0;
 }
