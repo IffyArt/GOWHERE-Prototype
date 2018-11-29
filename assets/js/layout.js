@@ -1,5 +1,8 @@
 $(document).ready(function () {
   $('.sidenav').sidenav();
+  $('.sidenav-chat').sidenav({
+    edge: 'right'
+  });
   $('.modal').modal();
   $('select').formSelect();
   $('.carousel.carousel-slider').carousel({
