@@ -1,3 +1,5 @@
+/* Expand-list */
+
 ul.expand-list {
   padding: 0.5rem 1rem;
 }
@@ -47,4 +49,86 @@ ul.expand-list li .price {
   background-color: #1aa59a;
   color: #FFFFFF;
   font-size: 0.9rem;
+}
+
+/* Person-data */
+
+.person-data {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.person-data .avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  width: 64px;
+}
+
+.person-data .avatar img {
+  width: 100%;
+}
+
+.person-data .data {
+  flex: auto;
+}
+
+.person-data .data .name {
+  margin-bottom: 0.2rem;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+.person-data .data .phone-number {
+  color: #808080;
+  font-size: 0.9rem;
+}
+
+/* Expand setting */
+
+.expand-setting {
+  padding: 1rem 0;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.expand-setting .title {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.expand-setting .carousel {
+  margin: 0.75rem 1.5rem;
+  width: auto;
+}
+
+.expand-setting .carousel .carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2.5rem;
+}
+
+.item-content .title {
+  padding: 1rem 0.5rem;
+  border-bottom: 2px solid #FFFFFF;
+  font-size: 2em;
+}
+
+.item-content .img {
+  margin-bottom: 2rem;
+}
+
+.item-content .img i {
+  font-size: 6rem;
+}
+
+.item-content .button {
+  font-size: 1.4em;
+  padding: 1rem 2rem;
+  height: auto;
 }

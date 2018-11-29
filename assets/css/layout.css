@@ -171,6 +171,10 @@ section.layout-main {
   height: calc(100vh - 110px);
 }
 
+section.layout-main.layout-footer {
+  height: calc(100vh - 56px);
+}
+
 section.layout-main>iframe {
   height: calc(100vh - 110px);
 }
