@@ -198,4 +198,72 @@ ul.sidenav-chat {
   width: 280px;
   height: 100%;
   background-color: #FFFFFF;
+  transform: translateX(105%);
+}
+
+ul.sidenav-chat>li.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.sidenav-chat>li.action>a {
+  display: flex;
+  align-items: center;
+  flex: auto;
+  justify-content: center;
+  margin: 8px 15px;
+  padding: 8px 0;
+  border: #6b6b6b solid 1px;
+  border-radius: 5px;
+  color: #6b6b6b;
+  font-size: 1.2em;
+}
+
+ul.sidenav-chat>li.action>a>i {
+  margin-right: 0.5rem;
+  font-size: 2rem;
+}
+
+ul.sidenav-chat .line {
+  margin: 8px 0;
+}
+
+ul.sidenav-chat .title {
+  display: flex;
+  padding: 8px 0;
+  font-size: 1.2em;
+}
+
+ul.sidenav-chat .title>i {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+ul.sidenav-chat .title span {
+  display: flex;
+  align-items: center;
+  flex: auto;
+  margin: 8px 15px;
+  color: #6b6b6b;
+}
+
+ul.sidenav-chat .title span i {
+  margin-right: 0.5rem;
+}
+
+ul.sidenav-chat .box ul.chat-box {
+  margin: 8px 15px;
+}
+
+ul.sidenav-chat .box ul.chat-box li {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: #6b6b6b solid 1px;
+  border-radius: 5px;
+}
+
+ul.sidenav-chat .box ul.chat-box li a {
+  color: #6b6b6b;
 }
