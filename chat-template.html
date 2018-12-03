@@ -70,12 +70,56 @@
   </ul>
   <section class="layout-main">
     <ul class="chat-template">
-      <li>123</li>
+      <li>
+        <div class="title">Lorem ipsum</div>
+        <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eaque</div>
+        <div class="action">
+          <a href="#"><i class="material-icons">edit</i></a>
+          <a href="#"><i class="material-icons">delete_forever</i></a>
+        </div>
+      </li>
+      <li>
+        <div class="title">Lorem ipsum</div>
+        <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eaque</div>
+        <div class="action">
+          <a href="#"><i class="material-icons">edit</i></a>
+          <a href="#"><i class="material-icons">delete_forever</i></a>
+        </div>
+      </li>
     </ul>
   </section>
+
+  <div id="add-template"
+       class="modal post">
+    <div class="modal-content">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">note</i>
+              <input id="title"
+                     type="text"
+                     class="validate">
+              <label for="title">Title</label>
+            </div>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">assignment</i>
+              <textarea id="content"
+                        class="materialize-textarea"></textarea>
+              <label for="content">Content</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!"
+         class="modal-close waves-effect waves-green btn-flat">Check</a>
+    </div>
+  </div>
   <footer class="layout-footer action z-depth-1">
-    <a href="#"
-       class="waves-effect">新增文字樣板</a>
+    <a href="#add-template"
+       class="waves-effect modal-trigger">新增文字樣板</a>
   </footer>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"
           integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
