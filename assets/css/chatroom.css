@@ -235,10 +235,11 @@ ul.sidenav-chat .title {
   font-size: 1.2em;
 }
 
-ul.sidenav-chat .title>i {
+ul.sidenav-chat .title>a {
   display: flex;
   align-items: center;
   margin: 0 15px;
+  color: #6b6b6b;
 }
 
 ul.sidenav-chat .title span {

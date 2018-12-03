@@ -95,6 +95,10 @@ ul.post-list li .footer ul li {
   height: 3.5rem;
 }
 
+ul.post-list li .footer ul li span {
+  color: #00A99D;
+}
+
 ul.post-list li .footer ul li a {
   display: flex;
   align-items: center;
@@ -104,6 +108,7 @@ ul.post-list li .footer ul li a {
 }
 
 ul.post-list li .footer ul li i {
+  margin-right: 5px;
   color: #C9C9C9;
 }
 
@@ -171,17 +176,17 @@ ul.post-list li .footer ul li.action i {
 }
 
 .post-chat::before {
-  content: ' ';
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 500px;
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 1) 100%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 1) 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 1) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 500px;
-  width: 100%;
-  z-index: 0;
+  content: ' ';
 }
