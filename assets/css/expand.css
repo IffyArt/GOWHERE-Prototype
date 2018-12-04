@@ -128,7 +128,13 @@ ul.expand-list li .price {
 }
 
 .item-content .button {
-  font-size: 1.4em;
   padding: 1rem 2rem;
   height: auto;
+  font-size: 1.4em;
+}
+
+/* transportation list */
+
+.transportation-list {
+  padding: 1rem 1.5rem;
 }

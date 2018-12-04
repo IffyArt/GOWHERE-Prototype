@@ -231,13 +231,13 @@ ul.sidenav-chat .line {
   margin: 8px 0;
 }
 
-ul.sidenav-chat .title {
+ul.sidenav-chat li.title {
   display: flex;
   padding: 8px 0;
   font-size: 1.2em;
 }
 
-ul.sidenav-chat .title>a {
+ul.sidenav-chat li.title>a {
   display: flex;
   align-items: center;
   margin: 0 15px;
@@ -256,7 +256,7 @@ ul.sidenav-chat .title span i {
   margin-right: 0.5rem;
 }
 
-ul.sidenav-chat .box ul.chat-box {
+ul.sidenav-chat li.box ul.chat-box {
   margin: 8px 15px;
 }
 
