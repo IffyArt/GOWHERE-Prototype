@@ -198,6 +198,10 @@ section.layout-main .system-form .row {
   margin-bottom: 0;
 }
 
+section.layout-main .system-form button.btn {
+  width: 100%;
+}
+
 footer.layout-footer {
   position: fixed;
   bottom: 0;

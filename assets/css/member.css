@@ -185,6 +185,8 @@ ul.user-add li>div {
 
 ul.user-add .avatar {
   display: inline-flex;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 ul.user-add .avatar img {
@@ -221,6 +223,8 @@ ul.group-list li {
 
 ul.group-list .avatar {
   display: inline-flex;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 ul.group-list .avatar img {
