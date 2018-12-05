@@ -74,6 +74,7 @@ ul.chat-list li .avatar {
   margin-right: 0.5rem;
   border-radius: 50%;
   overflow: hidden;
+  min-width: 50px;
 }
 
 ul.chat-list li .avatar img {
