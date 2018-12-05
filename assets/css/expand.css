@@ -134,3 +134,7 @@ ul.expand-list li .price {
 }
 
 /* path list */
+
+.path-list {
+  margin: 15px;
+}

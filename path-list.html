@@ -71,34 +71,32 @@
       </ul>
 
       <section class="layout-main">
-            <form class="system-form">
-                  <div class="row">
-                        <div class="input-field col s12">
-                              <i class="material-icons prefix">pin_drop</i>
-                              <input id="confirm_password"
-                                     type="text"
-                                     class="validate">
-                              <label for="confirm_password">目標地點</label>
-                        </div>
-                        <div class="input-field col s12">
-                              <i class="material-icons prefix select-i">drive_eta</i>
-                              <select>
-                                    <option value=""
-                                            disabled
-                                            selected>Select your gender</option>
-                                    <option value="1">公車</option>
-                                    <option value="2">捷運</option>
-                              </select>
-                              <label>交通工作</label>
-                        </div>
-                  </div>
-                  <footer class="layout-footer action z-depth-1">
-                        <a href="path-list.html"
-                           class=" waves-effect">查詢目標</a>
-                  </footer>
-            </form>
+            <div class="path-list">
+                  <table class="striped">
+                        <thead>
+                              <tr>
+                                    <th>停靠站</th>
+                                    <th>預估到站時間</th>
+                              </tr>
+                        </thead>
 
+                        <tbody>
+                              <tr>
+                                    <td>關埔公園</td>
+                                    <td>29分33秒</td>
+                              </tr>
+                              <tr>
+                                    <td>關埔公園</td>
+                                    <td>29分33秒</td>
+                              </tr>
+                        </tbody>
+                  </table>
+            </div>
       </section>
+      <footer class="layout-footer action z-depth-1">
+            <a href="transportation.html"
+               class=" waves-effect">返回查詢</a>
+      </footer>
       <script src="https://code.jquery.com/jquery-1.12.4.min.js"
               integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
               crossorigin="anonymous"></script>
