@@ -68,6 +68,8 @@ ul.expand-list li .price {
   justify-content: center;
   margin-right: 1rem;
   width: 64px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .person-data .avatar img {

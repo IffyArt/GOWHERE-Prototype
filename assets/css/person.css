@@ -11,6 +11,8 @@
 
 .person-detail .avatar {
   border-bottom: 1px solid #CCCCCC;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .person-detail .avatar>* {

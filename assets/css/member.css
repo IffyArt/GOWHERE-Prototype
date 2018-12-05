@@ -88,6 +88,8 @@ ul.user-list li>a {
 
 ul.user-list .avatar {
   display: inline-flex;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 ul.user-list .avatar img {
@@ -114,7 +116,9 @@ ul.user-list .chat-detail {
 .user-detail .header .avatar {
   position: absolute;
   bottom: -50px;
+  overflow: hidden;
   width: 100%;
+  border-radius: 50%;
   text-align: center;
 }
 
@@ -206,13 +210,13 @@ ul.group-list {
 }
 
 ul.group-list li {
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
   padding: 0.5rem;
   border-bottom: 1px solid #B3B3B3;
-  position: relative;
 }
 
 ul.group-list .avatar {

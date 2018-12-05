@@ -27,6 +27,8 @@ ul.chatroom-list li a .avatar {
   justify-content: center;
   min-width: 64px;
   width: 64px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 ul.chatroom-list .avatar img {
@@ -70,6 +72,8 @@ ul.chat-list li {
 
 ul.chat-list li .avatar {
   margin-right: 0.5rem;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 ul.chat-list li .avatar img {

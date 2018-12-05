@@ -66,6 +66,8 @@ nav .person>* {
 
 nav .person>.img {
   padding: 0 8px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 nav .person>.img img {
