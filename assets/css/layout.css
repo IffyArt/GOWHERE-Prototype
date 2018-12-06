@@ -251,3 +251,13 @@ footer.layout-footer.action button {
   background-color: #00a99d;
   color: #ffffff;
 }
+
+footer.layout-footer.action a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 54px;
+  width: 100%;
+  background-color: #00a99d;
+  color: #ffffff;
+}
