@@ -104,6 +104,11 @@ ul.chat-list li .content {
   background-color: #F2F2F2;
 }
 
+ul.chat-list li .content img {
+  width: 100%;
+  height: 100%;
+}
+
 ul.chat-list li.user {
   justify-content: flex-end;
   padding-left: 4.5rem;
