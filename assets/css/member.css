@@ -116,14 +116,15 @@ ul.user-list .chat-detail {
 .user-detail .header .avatar {
   position: absolute;
   bottom: -50px;
+  left: calc(50% - 50px);
   overflow: hidden;
-  width: 100%;
   border-radius: 50%;
   text-align: center;
 }
 
 .user-detail .header .avatar img {
   width: 100px;
+  height: 100px;
 }
 
 .user-detail .content {

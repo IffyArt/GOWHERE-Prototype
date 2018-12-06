@@ -271,10 +271,10 @@ ul.sidenav-chat li.box ul.chat-box {
   margin: 8px 15px;
 }
 
-ul.sidenav-chat .box ul.chat-box li {
+ul.sidenav-chat .box ul.chat-box li button {
   margin-bottom: 16px;
   padding: 8px;
-  border: #6b6b6b solid 1px;
+  border: none;
   border-radius: 5px;
 }
 
