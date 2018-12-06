@@ -1,7 +1,7 @@
 .person-detail+ul.post-list {
-  background-color: #FFFFFF;
-  min-height: auto;
   padding-bottom: 1rem;
+  min-height: auto;
+  background-color: #FFFFFF;
 }
 
 .person-detail {
@@ -10,7 +10,6 @@
 }
 
 .person-detail .avatar {
-  border-bottom: 1px solid #CCCCCC;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -20,9 +19,9 @@
 }
 
 .person-detail .avatar span {
-  font-size: 1.5em;
-  color: #333333;
   margin-bottom: 1rem;
+  color: #333333;
+  font-size: 1.5em;
 }
 
 .person-detail ul.status {
@@ -33,19 +32,19 @@
 }
 
 .person-detail ul.status li {
+  display: inline-flex;
   flex: auto;
   min-width: 25%;
-  display: inline-flex;
 }
 
 .person-detail ul.status li a {
-  height: 4rem;
-  color: #333333;
   display: flex;
-  width: 100%;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 4rem;
+  color: #333333;
 }
 
 .person-detail ul.status li a .NO {
