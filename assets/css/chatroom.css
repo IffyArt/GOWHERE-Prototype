@@ -27,8 +27,8 @@ ul.chatroom-list li a .avatar {
   align-items: center;
   justify-content: center;
   margin: 0 1rem;
-  width: 48px;
   min-width: 48px;
+  width: 48px;
   height: 48px;
   border-radius: 50%;
 }
@@ -97,6 +97,7 @@ ul.chat-list li .chat-detail .title .name {
 
 ul.chat-list li .content {
   display: inline-flex;
+  flex-direction: column;
   margin-top: 0.4rem;
   padding: 10px;
   min-width: 110px;
@@ -135,11 +136,29 @@ ul.chat-list li.user .title .name {
   display: none;
 }
 
-ul.chat-list li .chat-detail .action {
+ul.chat-list li .chat-detail>.action {
   padding: 0.75rem 2.5rem;
   border-radius: 15px;
   background-color: #00A99D;
   color: #FFFFFF;
+}
+
+ul.chat-list li .chat-detail .note .divider-line {
+  margin: 1rem 0;
+  background-color: #6b6b6b;
+}
+
+ul.chat-list li .chat-detail .note .action {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul.chat-list li .chat-detail .note .action span {
+  flex: auto;
+}
+
+ul.chat-list li .chat-detail .note a.action {
+  color: #00A99D;
 }
 
 /* chat-list end */
@@ -304,10 +323,10 @@ ul.chat-template li {
 }
 
 ul.chat-template li .title {
-  margin-bottom: 0.2rem;
-  font-size: 1.5em;
-  width: 100%;
   display: flex;
+  margin-bottom: 0.2rem;
+  width: 100%;
+  font-size: 1.5em;
 }
 
 ul.chat-template li .action {
