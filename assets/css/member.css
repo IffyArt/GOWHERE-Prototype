@@ -243,6 +243,10 @@ ul.group-list .action {
   right: 0.5rem;
 }
 
+ul.group-list .action a {
+  margin-left: 0.5rem;
+}
+
 /* Group setting */
 
 ul.group-member {

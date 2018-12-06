@@ -23,12 +23,13 @@ ul.chatroom-list li a {
 
 ul.chatroom-list li a .avatar {
   display: flex;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
-  min-width: 64px;
-  width: 64px;
+  margin: 0 1rem;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
-  overflow: hidden;
 }
 
 ul.chatroom-list .avatar img {
@@ -71,10 +72,11 @@ ul.chat-list li {
 }
 
 ul.chat-list li .avatar {
-  margin-right: 0.5rem;
-  border-radius: 50%;
   overflow: hidden;
-  min-width: 50px;
+  margin-right: 0.5rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
 }
 
 ul.chat-list li .avatar img {
