@@ -301,6 +301,8 @@ ul.chat-template li {
 ul.chat-template li .title {
   margin-bottom: 0.2rem;
   font-size: 1.5em;
+  width: 100%;
+  display: flex;
 }
 
 ul.chat-template li .action {
@@ -310,5 +312,56 @@ ul.chat-template li .action {
 }
 
 ul.chat-template li .action a {
+  color: #00A99D;
+}
+
+/* sidenav-chat end */
+
+ul.chat-note {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0.8rem;
+}
+
+ul.chat-note li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 0.5rem 0.2rem;
+  border-bottom: #B3B3B3 solid 1px;
+  justify-items: center;
+}
+
+ul.chat-note .avatar {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  margin: 0.2rem 0.8rem;
+  min-width: 64px;
+  width: 64px;
+  border-radius: 50%;
+  justify-items: center;
+}
+
+ul.chat-note .avatar img {
+  width: 64px;
+  height: 64px;
+}
+
+ul.chat-note li .title {
+  display: flex;
+  margin-bottom: 0.2rem;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+ul.chat-note li .action {
+  position: absolute;
+  top: 0.8rem;
+  right: 0px;
+}
+
+ul.chat-note li .action a {
   color: #00A99D;
 }
